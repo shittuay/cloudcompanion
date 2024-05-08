@@ -1,44 +1,61 @@
-## CloudCompanion - AI Website Troubleshooting and Resolution Application
+# 👋 Hello developer!
 
-CloudCompanion is an innovative artificial intelligence application designed to streamline website troubleshooting and resolution processes. By integrating your website with CloudCompanion, you gain access to advanced AI capabilities that can swiftly identify and resolve a wide range of issues, ensuring optimal performance and user experience.
+This is one of the many templates available from W3Schools. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp) and [JavaScript](https://www.w3schools.com/js/default.asp). 🦄
 
-## Features
+This project serves as an example of what can be achieved. It is not a fully functional product. Feel free to use the source code and ideas as a starting point for your own projects.
 
-- **Intelligent Issue Detection**: CloudCompanion employs state-of-the-art AI algorithms to automatically detect various issues affecting your website, including performance bottlenecks, security vulnerabilities, and functionality errors.
+## Knowledge requirements
 
-- **Real-Time Monitoring**: With CloudCompanion, you can continuously monitor your website's health and performance in real-time. Receive instant alerts for any anomalies or issues detected, allowing you to take proactive measures before they escalate.
+To be able to fully understand and modify this template to your needs, there are several things you should know (or learn):
 
-- **Automated Troubleshooting**: CloudCompanion doesn't just identify issues—it also offers automated troubleshooting solutions. Leveraging its deep understanding of web technologies and best practices, CloudCompanion provides step-by-step guidance to resolve issues efficiently.
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
+- [React](https://reactjs.org/)
+- [Node.js](https://www.w3schools.com/nodejs/default.asp)
+- [Express.js](https://expressjs.com/)
 
-- **Integration with Cloud Services**: CloudCompanion seamlessly integrates with leading cloud service providers, allowing you to leverage additional resources and tools for website optimization and management.
+## 🔨 What's next?
 
-- **Customizable Solutions**: Tailor CloudCompanion's troubleshooting and resolution strategies to align with your specific website requirements and preferences. Customize alerts, thresholds, and remediation actions to suit your unique needs.
+Customize this template to make it your own.  
+Remember to make your layout responsive - if you want your site to look good on smaller screens like mobile.
 
-## Getting Started
+## 🎨 Where to find everything?
 
-To integrate CloudCompanion with your website, follow these simple steps:
+This template is made by using several technologies.  
+Below are explanations about where to find specific code.
 
-1. **Sign Up**: Visit our website and sign up for a CloudCompanion account. Once registered, you'll gain access to the CloudCompanion dashboard and API documentation.
+### Root HTML
 
-2. **Integrate CloudCompanion API**: Follow the integration instructions provided in the documentation to connect your website with CloudCompanion. Integration is straightforward and typically requires adding a few lines of code to your website's backend.
+There are only one important HTML file in this project which is the base page around the application. It is a bit different from a default React project as you can find the skeleton HTML `index.html` in the root folder instead of `public`.
 
-3. **Configure Monitoring Preferences**: Customize your monitoring preferences within the CloudCompanion dashboard. Specify the metrics you want to track, set alert thresholds, and configure notification preferences to ensure timely issue detection.
+### CSS and images
 
-4. **Monitor and Resolve**: Once integrated, CloudCompanion will begin monitoring your website's performance and health in real-time. Keep an eye on the dashboard for any alerts or issues flagged by CloudCompanion, and follow the guided troubleshooting steps to resolve them efficiently.
+You can find the CSS for the application in `src/client/app.css`.
 
-## Support and Feedback
+### Application
 
-For any questions, concerns, or feedback regarding CloudCompanion, don't hesitate to reach out to our support team. We're here to assist you every step of the way and welcome your input to continually improve the CloudCompanion experience.
+You can find the core frontend React application in `src/client`. Here you have a normal React setup with `index.js` as the glue that pieces the `.jsx` components together. You will have to know React to use this template.
 
-## About Us
+### Backend
 
-CloudCompanion is developed and maintained by a team of experienced AI and web development professionals dedicated to simplifying website management and optimization. Our mission is to empower website owners with cutting-edge AI technology, enabling them to overcome challenges and achieve peak performance effortlessly.
+The backend logic is located under `src/server`. `src/server/index.js` is the main file handling the APIs. 
 
-Get started with CloudCompanion today and experience the future of website troubleshooting and resolution!
+### Database
 
-##   Website
+Dynamic spaces can use [SQLite](https://www.sqlite.org/docs.html) database.  
+The database file is called `database.db`. It is placed inside the `w3s-dynamic-storage` folder.  
+SQLite connection path to the database is `w3s-dynamic-storage/database.db` which you can use to connect to the SQLite database programmatically.   
 
-https://cloudcompanion.com
+---  
+**Do not change the `w3s-dynamic-storage` folder name or `database.db` file name!**  
+**By changing the `w3s-dynamic-storage` folder name or `database.db` file name, you risk the space not working properly.**
 
+## 🔨 Please note
+For now, files created/uploaded or edited from within the terminal view will not be backed up or synced. 
 
+## ⛑ Need support?
+[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel to get your space on the next level.  
+[Send us a ticket](https://support.w3schools.com/hc/en-gb) if you have any technical issues with Spaces.
 
+Happy learning!
